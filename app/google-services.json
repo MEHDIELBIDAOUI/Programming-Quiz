@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978848381489",
+    "project_id": "programmingquiz-28f10",
+    "storage_bucket": "programmingquiz-28f10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978848381489:android:7c6f8668fa3323a387b310",
+        "android_client_info": {
+          "package_name": "com.example.programmingquiz_bidaoui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq5Y24TBnWobPvmP52Vy_qtcwdhrNvOYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

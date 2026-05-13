@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter une Question"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/on_background"
+            android:layout_marginBottom="16dp"/>
+
+        <Switch
+            android:id="@+id/switchIsCodeChallenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Est-ce un Code Challenge ?"
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question (ou Bloc de Code)"
+            android:background="@color/surface_variant"
+            android:textColor="@color/on_surface"
+            android:padding="16dp"
+            android:minLines="3"
+            android:gravity="top|start"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 1"
+            android:background="@color/surface_variant"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 2"
+            android:background="@color/surface_variant"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 3"
+            android:background="@color/surface_variant"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etOption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 4"
+            android:background="@color/surface_variant"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bonne réponse (1-4)"
+            android:textColor="@color/textSecondary" />
+
+        <Spinner
+            android:id="@+id/spinnerCorrectAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/surface_variant"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catégorie"
+            android:textColor="@color/textSecondary" />
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/surface_variant"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niveau"
+            android:textColor="@color/textSecondary" />
+
+        <Spinner
+            android:id="@+id/spinnerLevel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/surface_variant"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnSaveQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Enregistrer la Question"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/on_primary" />
+
+    </LinearLayout>
+</ScrollView>

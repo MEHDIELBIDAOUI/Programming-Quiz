@@ -1,0 +1,1 @@
+// Main Activity moved to .activities package
